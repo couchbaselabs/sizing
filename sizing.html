@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Cluster Sizing || Couchbase.com</title>
+    <script type='text/javascript' src='http://code.jquery.com/jquery-1.9.1.js'></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="sizing.css">
+    <script type="text/javascript" src="calc.js"></script>
+</head>
+<body>
+<table width="1000px">
+    <tr>
+    <td>Buckets:<input id="sliderBuckets-value" size="4">
+    </td>
+    <td width="800px">
+        <div id="sliderBuckets"></div>
+    </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <table class="classTableGlobal">
+                <tr>
+                    <td><label class="classGlobalOut">Summary: </label>Memory Bound Nodes:</td>
+                    <td style="background-color:#FFFF00"><label id="lblMemBoundGlobal" />00</td>
+                    <td>Total Memory Used:</td>
+                    <td style="background-color:#FFFF00"><label id="lblMemPerNodeGlobal" />00</td>
+                    <td>Disk Bound Nodes:</td>
+                    <td style="background-color:#FFFF00"><label id="lblDiskBoundGlobal" />00</td>
+                    <td>Total Disk Space Used:</td>
+                    <td style="background-color:#FFFF00"><label id="lblTotalDiskGlobal" />00</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    </table>
+    <div id="instances"></div>
+</body>
+</html>
+
