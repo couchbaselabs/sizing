@@ -7,10 +7,11 @@
     <script type="text/javascript" src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
     <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
     <link rel="stylesheet" type="text/css" href="sizing.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="calc.js"></script>
 </head>
 <body>
-<table width="1000px">
+<table class="main">
     <tr>
     <td>Buckets:<input id="sliderBuckets-value" size="4">
     </td>
@@ -23,13 +24,13 @@
             <table class="classTableGlobal">
                 <tr>
                     <td><label class="classGlobalOut">Summary: </label>Memory Bound Nodes:</td>
-                    <td style="background-color:#FFFF00"><label id="lblMemBoundGlobal" />00</td>
+                    <td class="highlight"><label id="lblMemBoundGlobal" />00</td>
                     <td>Total Memory Used:</td>
-                    <td style="background-color:#FFFF00"><label id="lblMemPerNodeGlobal" />00</td>
+                    <td class="highlight"><label id="lblMemPerNodeGlobal" />00</td>
                     <td>Disk Bound Nodes:</td>
-                    <td style="background-color:#FFFF00"><label id="lblDiskBoundGlobal" />00</td>
+                    <td class="highlight"><label id="lblDiskBoundGlobal" />00</td>
                     <td>Total Disk Space Used:</td>
-                    <td style="background-color:#FFFF00"><label id="lblTotalDiskGlobal" />00</td>
+                    <td class="highlight"><label id="lblTotalDiskGlobal" />00</td>
                 </tr>
             </table>
         </td>
