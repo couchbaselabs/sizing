@@ -2,32 +2,49 @@ div[id*='slider'] {
     background: #7abcca;
     height:10px;
 }
+
 .ui-slider .ui-slider-handle {
     height: 15px;
     width: 15px;
-    /* padding-left: 5px; //add this */
 }
+
 h1 {
-    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 18px;
 }
-body, p {
-    font-family: 'Open Sans', sans-serif;
+
+body {
+    font-size:15px;
 }
+
+body, h1, p {
+    font-family: 'Open Sans', sans-serif;
+    text-align:left;
+}
+
+td.buckets {
+    width:120px;
+}
+
+td.slider {
+    width: 800px !important;
+    padding-right: 5px;
+}
+
 .classSliderGroup {
     border-collapse:collapse;
     border: 1px solid #D0D0D0;
     margin-left:25px;
     width:500px;
 }
+
 .classTable {
     margin:0;
     padding:0;
     width:502px;
-    border:1px solid #cccccc;
-
+    border:1px solid #ccc;
 }
+
 .classTable table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -36,69 +53,60 @@ body, p {
     margin:0;
     padding:0;
 }
-.classTable tr:last-child td:last-child {
-    -moz-border-radius-bottomright:4px;
-    -webkit-border-bottom-right-radius:4px;
-    border-bottom-right-radius:4px;
-}
 
 .classTable table tr:first-child td:last-child {
     padding:10px 0;
 }
-.classTable tr:last-child td:first-child {
-    -moz-border-radius-bottomleft:4px;
-    -webkit-border-bottom-left-radius:4px;
-    border-bottom-left-radius:4px;
-}
-.classTable tr:hover td {
-    background-color:#ffffff;
-}
+
 .classTable td {
     vertical-align:middle;
-    background:#ffffff;
-    border:1px solid #cccccc;
+    background:#fff;
+    border:1px solid #ccc;
     border-width:0px 1px 1px 0px;
-    text-align:left;
     padding:10px;
     font-size:12px;
-    font-family: 'Open Sans', sans-serif;
     font-weight:bold;
-    color:#000000;
+    color:#000;
 }
+
 .classTable tr:last-child td {
     border-width:0px 1px 0px 0px;
 }
+
 .classTable tr td:last-child {
     border-width:0px 0px 1px 0px;
 }
+
 .classTable tr:last-child td:last-child {
     border-width:0px 0px 0px 0px;
 }
+
 .classTable tr:first-child td {
     background:#ec1e2c;
-    border:0px solid #cccccc;
+    border:0px solid #ccc;
     text-align:center;
     border-width:0px 0px 1px 1px;
-    font-size:15px;
-    font-family: 'Open Sans', sans-serif;
     font-weight:bold;
-    color:#ffffff;
+    color:#fff;
 }
+
 .classTable tr:first-child:hover td {
     background:#ec1e2c;
 }
+
 .classTable tr:first-child td:first-child {
     border-width:0px 0px 1px 0px;
 }
+
 .classTable tr:first-child td:last-child {
     border-width:0px 0px 1px 1px;
 }
-/*    */
+
 .classTableOutput {
     margin: 21px 0 25px;
     padding:0;
     width:500px;
-    border:1px solid #cccccc;
+    border:1px solid #ccc;
 }
 
 .classTableOutput table {
@@ -110,61 +118,44 @@ body, p {
     padding:0px;
 }
 
-
 .classTableOutput table tr:first-child td:first-child {
     border:1px solid #ec1e2c;
-
 }
 
-.classTableOutput tr:hover td {
-    background:#ffffff;
-}
 .classTableOutput td {
     vertical-align:middle;
-    background-color:#ffffff;
-    border:1px solid #cccccc;
+    background:#fff;
+    border:1px solid #ccc;
     border-width:0px 1px 1px 0px;
-    text-align:left;
     padding:6px;
-    font-size:15px;
-    font-family: 'Open Sans', sans-serif;
     font-weight:bold;
-    color:#000000;
+    color:#000;
 }
+
 .classTableOutput tr:last-child td {
     border-width:0px 1px 0px 0px;
 }
+
 .classTableOutput tr td:last-child {
     border-width:0px 0px 1px 0px;
 }
+
 .classTableOutput tr:last-child td:last-child {
     border-width:0px 0px 0px 0px;
 }
+
 .classTableOutput tr:first-child td {
     background:#ec1e2c;
-    border:0px solid #cccccc;
+    border:1px solid #ec1e2c;
     text-align:center;
-    border-width:0px 0px 1px 1px;
-    font-size:15px;
-    font-family: 'Open Sans', sans-serif;
     font-weight:bold;
-    color:#ffffff;
+    color:#fff;
 }
-.classTableOutput tr:first-child:hover td {
-    background:#ec1e2c;
-}
-.classTableOutput tr:first-child td:first-child {
-    border-width:0px 0px 1px 0px;
-}
-.classTableOutput tr:first-child td:last-child {
-    border-width:0px 0px 1px 1px;
-}
-/*    */
+
 .classTableConstants {
     margin-left:0px;
     padding:0px;
     width:500px;
-    border:1px solid #cccccc;
 }
 
 .classTableConstants table {
@@ -176,55 +167,28 @@ body, p {
     padding:0px;
 }
 
-.classTableConstants tr:last-child td:last-child {
-    
-}
-
-
-.classTableConstants tr:hover td {
-    background-color:#ffffff;
-}
-
 .classTableConstants td {
     vertical-align:middle;
-    background-color:#ffffff;
-    border:1px solid #cccccc;
-    border-width:0px 1px 1px 0px;
-    text-align:left;
+    background-color:#fff;
+    border:1px solid #ccc;
     padding:10px;
     font-size:12px;
-    font-family: 'Open Sans', sans-serif;
     font-weight:bold;
-    color:#cccccc;
+    color:#ccc;
 }
-.classTableConstants tr:last-child td {
-    border-width:0px 1px 0px 0px;
-}
-.classTableConstants tr td:last-child {
-    border-width:0px 0px 1px 0px;
-}
-.classTableConstants tr:last-child td:last-child {
-    border-width:0px 0px 0px 0px;
-}
+
 .classTableConstants tr:first-child td {
-    background-color:#cccccc;
-    border:0px solid #cccccc;
+    background:#ccc;
+    border:1px solid #ccc;
     text-align:center;
-    border-width:0px 0px 1px 1px;
-    font-size:15px;
-    font-family: 'Open Sans', sans-serif;
     font-weight:bold;
-    color:#ffffff;
+    color:#fff;
 }
+
 .classTableConstants tr:first-child:hover td {
-    background-color:#000000;
+    background:#000;
 }
-.classTableConstants tr:first-child td:first-child {
-    border-width:0px 0px 1px 0px;
-}
-.classTableConstants tr:first-child td:last-child {
-    border-width:0px 0px 1px 1px;
-}
+
 .classTableConstants input[type=text] {
     user-select: none;
     color:#808080;
@@ -246,7 +210,7 @@ input[type=radio] + label {
     margin:-2px;
     padding: 0px 12px;
     border-color: #ddd;
-    background-color:#d0d0d0;
+    background:#d0d0d0;
 }
 /*
  Change background color for label next to checked radio button
@@ -254,41 +218,58 @@ input[type=radio] + label {
 */
 input[type=radio]:checked + label {
     background-image: none;
-    background-color: #e7e7e7;
+    background: #e7e7e7;
     color:#808080;
 }
-.classTableGlobal{
-    text-align:left;
+
+.classTableGlobal {
     padding:2px;
     font-size:12px;
-    font-family: 'Open Sans', sans-serif;
     font-weight:bold;
-    color:#000000;
-    width:800 px;
+    color:#000;
+    width:945px;
+    margin-top:15px;
 }
 
 .classTableGlobal td {
-    border:1px solid #cccccc;
-    padding:10px 15px;
+    border:1px solid #ccc;
+    padding:5px 10px;
 }
 
 .classGlobalOut{
     font-size:14px;
-    font-family: 'Open Sans', sans-serif;
     font-weight:bold;
     color:#808080;
 }
 
-td.highlight {background:#C3E5E3;}
+td.highlight {
+    background:#C3E5E3;
+}
 
-table.main {width:1000px; margin:15px auto;}
+table.main {
+    width:950px; margin:15px auto;
+}
 
-table.bucket {width:95%; padding:0 5% 0 0;}
+table.bucket {
+    width:95%; padding:0 5% 0 0;
+}
 
-.bucket td {padding-right:20px;}
+.bucket td {
+    padding-right:20px;
+}
 
-td.dropdown {padding-top:25px;}
+td.dropdown {
+    padding-top:25px;
+}
 
-td.dropdown h1 {margin:0;}
+td.dropdown h1 {
+    margin:0;
+}
 
-.docs {width:90%;}
+.docs {
+    width:90%;
+}
+
+#instances {
+    padding-left:30px;
+}
